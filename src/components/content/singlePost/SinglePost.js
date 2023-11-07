@@ -12,7 +12,7 @@ export default function SinglePost() {
   const path = location.pathname.split("/")[2];
   console.log(path)
   const [post, setPost] = useState({});
-  const PubFolder = "http://localhost:8000/api/images/";
+  const PubFolder = process.env.REACT_APP_PROXY + "/api/images/";
   //const { user } = useContext(Context);
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
@@ -20,7 +20,7 @@ export default function SinglePost() {
   useEffect(() => {
     const getPost = async () => {
       console.log('In useEffect')
-      const res = await axios.get("/api/posts/" + path);
+      const res = await axios.get(process.env.REACT_APP_PROXY + "/api/posts/" + path);
       console.log('After useEffect')
       setPost(res.data);
       setTitle(res.data.title);

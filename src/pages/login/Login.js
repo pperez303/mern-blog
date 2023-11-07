@@ -18,7 +18,7 @@ export default function Login() {
     e.preventDefault();
     dispatch({ type: "LOGIN_START" });                    // call the dispatch() function in the Context object.
     try {
-      const res = await axios.post("/auth/login", {
+      const res = await axios.post(process.env.REACT_APP_PROXY + "/auth/login", {
         username: userRef.current.value,
         password: passwordRef.current.value,
       });
