@@ -26,6 +26,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: echo "${{ vars.API_PROXY }}" > .env
     - run: npm i
     - run: npm run build --if-present
+    - run: echo "${{ secrets.DROPLET1 }}" | sudo -S rm -R /var/www/clientbuild/build
+    - run: echo "${{ secrets.DROPLET1 }}" | sudo -S mv /home/ipeteperez/frontend-apps/client-action-runner/reactjs-app/mern-blog-client/mern-blog-client/build /var/www/clientbuild
     #- run: npm test
