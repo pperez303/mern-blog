@@ -3,6 +3,7 @@
   }
   
   .singlePostWrapper {
+    width: 600px;
     padding: 20px;
     padding-right: 0;
     display: flex;
@@ -21,6 +22,7 @@
     margin: 10px;
     font-family: "Lora", serif;
     font-size: 28px;
+    color: var(--body_color);
   }
 
   .singlePostInfo {
@@ -32,14 +34,51 @@
     color: #b39656;
   }
   
-  .singlePostDesc {
-    color: #666;
+  .postDescription {
+    padding: 20px;
+    background-color: var(--body_background);
+    color: var(--body_color);
+    border-radius: 5px 5px 0px 0px;
     font-size: 18px;
     line-height: 25px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .postbody {
+    padding: 20px;
+    background-color: var(--body_background);
+    color: var(--body_color);
+    border-radius: 0px 0px 5px 5px;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+    height: 100%;
   }
 
   .singlePostDesc::first-letter {
     font-size: 30px;
     font-weight: 600;
   }
+  
+  /* .image classnamem used by ckEditor.  This css used to control image sizing in the blog content area. */  
+  .image img {
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .postbody p img {
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+
+
+  
   

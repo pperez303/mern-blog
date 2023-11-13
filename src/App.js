@@ -8,9 +8,11 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Contact from './pages/contact/Contact';
 import SinglePostView from "./pages/single_post_view/SinglePostView";
+import './app.css';
 
 function App() {
   return (
+
     <Router>
       <NavBar />
       <Routes>

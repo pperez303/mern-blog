@@ -1,6 +1,8 @@
-.posts {
+.postlist {
     flex: 9;
+    align-items: center;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 5px;
   }

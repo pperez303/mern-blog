@@ -3,24 +3,19 @@
     margin: 0;
     padding: 0;
 }
+.aboutArea{
+  display: flex;
+}
 
-  .wrapper {
-      max-width: 1440px;
-      margin: 100px auto;
-      padding: 20px;
-      display: grid;
-      grid-template-columns: 3fr 1fr;
-      grid-template-rows: auto;
-    }
-
-.about {
-    background: #fff;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    margin-bottom: 10px;
-    background: hsl(263, 55%, 52%);
-    color: #fff;
+.aboutInfo {
+  width: 1600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  background: var(--body_background);
+  color: var(--body_color);
 }
 
 .aboutHeader {
@@ -37,7 +32,7 @@
     margin-right: 10px;
   }
 
-  .aboutInfo p {
+  .aboutName p {
     opacity: 50%;
   }
 

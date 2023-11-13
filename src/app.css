@@ -1,0 +1,7 @@
+.link{
+    color: var(--link_color);
+  }
+
+.link:hover {
+    color: white;
+}

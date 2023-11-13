@@ -3,6 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
+import parse from "html-react-parser";
 import "./singlepost.css";
 
 
@@ -16,6 +17,7 @@ export default function SinglePost() {
   //const { user } = useContext(Context);
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
+  const [postbody, setPostBody] = useState("");
 
   useEffect(() => {
     const getPost = async () => {
@@ -25,7 +27,7 @@ export default function SinglePost() {
       setPost(res.data);
       setTitle(res.data.title);
       setDesc(res.data.desc);
-      //setPostBody(res.data.postbody);
+      setPostBody(res.data.postbody);
       console.log(res)
     };
     getPost();
@@ -34,11 +36,13 @@ export default function SinglePost() {
   return (
     <div className="singlePost">
       <div className="singlePostWrapper">
-      
-        {post.photo && (
-          <img src={PubFolder + post.photo} alt="" className="singlePostImg" />
-        )}
         <h1 className="singlePostTitle">{title} </h1>
+        
+          {post.photo && (
+            <img src={PubFolder + post.photo} alt="" className="singlePostImg" />
+            )}
+
+        
         <div className="singlePostInfo">
           <span className="singlePostAuthor">
             Author:
@@ -51,7 +55,16 @@ export default function SinglePost() {
           </span>
           
         </div>
-        <p className="singlePostDesc">{desc}</p>
+
+        <div className="singlePostDesc">
+          <p className="postDescription">{desc}</p>
+        </div>
+
+        <div className="postbody">
+          {parse(postbody)}
+        </div>
+        
+        
         {/* // test - here is where you would insert the additional blog content. */}
         <br />
         
