@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 import NavBar from './components/common/nav/NavBar';
 
 // Pages
-import Home from "./pages/home/Home";
-import About from "./pages/about/About";
-import Contact from './pages/contact/Contact';
-import SinglePostView from "./pages/single_post_view/SinglePostView";
+import BlogPage from "./pages/blog_page/BlogPage";
+import AboutPage from "./pages/about_page/AboutPage";
+import ContactPage from './pages/contact_page/ContactPage';
+import PostPage from "./pages/post_page/PostPage";
 import './app.css';
 
 function App() {
@@ -16,10 +16,10 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/post/:postId" element={<SinglePostView />} />
+        <Route exact path="/" element={<BlogPage />} />
+        <Route exact path="/about" element={<AboutPage />} />
+        <Route exact path="/contact" element={<ContactPage />} />
+        <Route exact path="/post/:postId" element={<PostPage />} />
       </Routes>
     </Router>
   );

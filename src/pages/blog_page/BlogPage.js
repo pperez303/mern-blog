@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useLocation } from "react-router";
-import "./home.css";
+import "./blogpage.css";
 
 // Components
 import Header from "../../components/common/header/Header";
-import Sidebar from "../../components/common/sidebar/Sidebar";
-import Posts from "../../components/content/posts/Posts";
+import PostCardList from "../../components/content/post_card_list/PostCardList";
+// import Sidebar from "../../components/common/sidebar/Sidebar";
 
 
 function Home() {
@@ -31,7 +31,7 @@ function Home() {
     <>
       <Header />
       <div className="home">
-        <Posts posts={posts} />
+        <PostCardList posts={posts} />
         {/*<Sidebar /> */}
       </div>
     </>

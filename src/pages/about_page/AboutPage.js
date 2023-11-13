@@ -1,5 +1,5 @@
 //import React from 'react';  
-import "./about.css";
+import "./aboutpage.css";
 import neo from "../../assets/images/neo.jpg"
 
 //components

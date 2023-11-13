@@ -10,7 +10,7 @@ function NavBar() {
                 <ul className="navList">
                     <li className="navListItem">
                         <Link className="link" to="/">
-                            Home
+                            Blog
                         </Link>
                     </li>
                     <li className="navListItem">

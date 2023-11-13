@@ -1,4 +1,4 @@
-import "./contact.css";
+import "./contactpage.css";
 import neo from "../../assets/images/neo.jpg"
 
 // Components

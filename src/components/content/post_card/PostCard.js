@@ -1,4 +1,4 @@
-import "./postcontent.css";
+import "./postcard.css";
 import { Link } from "react-router-dom";
 
 export default function Post({ post }) {
@@ -8,7 +8,7 @@ export default function Post({ post }) {
  console.log(path)
 
   return (
-    <div className="post">
+    <div className="postItem">
       {post.photo && <img className="postImg" src={path + post.photo} alt="" />}
       <div className="postInfo">
         {/*<div className="postCats">

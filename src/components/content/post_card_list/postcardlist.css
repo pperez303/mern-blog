@@ -1,5 +1,6 @@
-.postlist {
-    flex: 9;
+.postCardContainer {
+    flex: 1;
+    gap: 5px;
     align-items: center;
     justify-content: center;
     display: flex;
