@@ -1,13 +1,160 @@
-.singlePost {
-    flex: 9;
+.postContainer {
+  width: 100%;
   }
-  
+
+.postSectionTop {
+width: 100%;
+height: 450px;
+background-color: var(--body_background);
+}
+
+.postHeaderTop {
+
+display: flex;
+align-items: center;
+}
+
+.postHeaderImage {
+  width: 50%;
+
+}
+.postHeaderImage img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.postHeaderInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  color: var(--body_color);
+
+}
+
+.postHeaderTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 4em;
+  color: var(--body_color);
+}
+
+.postHeaderHook {
+  font-family: "Valera Round", sans-serif;
+  font-size: 3em;
+  color: var(--body_color);
+  margin: 10px;
+}
+
+.metaData {
+  display: flex;
+  width: 100%;
+  color: #b39656;
+}
+
+.postHeaderAuthor {
+  width: 50%;
+  padding: 20px;
+}
+
+.postHeaderDate {
+  width: 50%;
+  padding: 20px;
+  text-align: right;
+}
+
+.postSectionMiddle {
+  display: flex;
+  height: 150px;
+  padding: 20px;
+  align-items: center;
+}
+
+.socialIcons {
+  width: 50%;
+  text-align: center;
+  color: var(--body_color);
+}
+
+.contactMe {
+  box-sizing: border-box;
+  background-color: black;
+  width: 50%;
+  text-align: center;
+}
+
+.contactMeButton {
+  padding: 10px 10px 10px 10px;
+  background-color:  #997c3e;
+  border-radius: 30px;
+}
+
+.contactMeButton .link {
+  font-family: "Valera Round", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--body_color);
+  line-height: 1.2em;
+  letter-spacing: 0.2px;
+}
+
+.hrSolid {
+  border: 1px solid red;
+}
+
+.postSectionBottom {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--body_color);
+  text-align: center;
+}
+
+.postSectionBottom .postBody {
+  display: flex;
+  max-width: 1150px;
+
+}
+
+.postBodyLeft {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  width: 25%;
+  height: 600px;
+  margin: 10px;
+
+}
+
+.postBodyRight {
+  background-color: green;
+  width: 75%;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+
+
+
+  /*
   .singlePostWrapper {
-    width: 600px;
+    width: 800px;
     padding: 20px;
     padding-right: 0;
     display: flex;
     flex-direction: column;
+  }
+
+
+
+  .postSectionTop postInfo {
+    display: flex;
   }
   
   .singlePostImg {
@@ -60,8 +207,10 @@
     font-size: 30px;
     font-weight: 600;
   }
-  
+*/
   /* .image classnamem used by ckEditor.  This css used to control image sizing in the blog content area. */  
+
+  /*
   .image img {
     padding: 10px;
     width: 100%;
@@ -77,8 +226,4 @@
     border-radius: 10px;
     object-fit: cover;
   }
-
-
-
-  
-  
+*/

@@ -8,9 +8,8 @@ function Single_Post() {
 
   return (
     <>
-      <div className="wrapper">
+      <div className="postWrapper">
           <SinglePost className="singlepost" />
-          <Sidebar className="sidebar" />
       </div>
     </>
   )

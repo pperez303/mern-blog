@@ -4,10 +4,12 @@
   padding: 0;
 }
 
-.wrapper {
-  max-width: 1440px;
-  margin: 100px auto;
-  padding: 20px;
+.postWrapper {
+  width: 100%;
+
+
+}
+  /*
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: auto;
@@ -22,4 +24,4 @@
 .sidebar {
   grid-area: sidebar;
   }
-
+*/

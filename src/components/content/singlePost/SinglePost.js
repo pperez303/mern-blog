@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import parse from "html-react-parser";
 import "./singlepost.css";
 
+import Sidebar from "../../common/left_sidebar/LeftSidebar";
+
 
 export default function SinglePost() {
   const location = useLocation();
@@ -34,7 +36,273 @@ export default function SinglePost() {
   }, [path]);
 
   return (
-    <div className="singlePost">
+    <div className="postContainer">
+      <section className="postSectionTop">
+        <div className="postHeaderTop">
+          <div className="postHeaderImage">
+            {post.photo && (
+              <img src={PubFolder + post.photo} alt="" className="singlePostImg" />
+            )}
+          </div>
+          <div className="postHeaderInfo">
+            <div className="postHeaderTitle">{title} </div>
+            <div className="postHeaderHook">{desc}</div>
+            <div className="metaData">
+              <div className="postHeaderAuthor">
+                Author:
+                <Link to={`/?user=${post.username}`} className="link">
+                  <b> {post.username}</b>
+                </Link>
+              </div>
+              <div className="postHeaderDate">
+                {new Date(post.createdAt).toDateString()}
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      <section className="postSectionMiddle">
+        <div className="socialIcons">
+          social Icons
+        </div>
+        <div className="contactMe">
+          <button className="contactMeButton">
+            <Link className="link" to="/contact">
+              Contact me if you have any questions
+            </Link>
+          </button>
+        </div>
+      </section>
+      <section className="postSectionDivider">
+        <div>
+          <hr className="hrSolid" />
+        </div>
+      </section>
+      <section className="postSectionBottom">
+        <div className="postBody">
+          <div className="postBodyLeft">
+          <Sidebar className="sidebar"/>
+          </div>
+          <div className="postBodyRight">
+            <h2> my Story </h2>
+            <p>
+            rightsideoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+            eeeeeeeeeee
+            eeeeeeeeell
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <p>
+            rightsideoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+            eeeeeeeeeee
+            eeeeeeeeell
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+            <br></br>
+            <p>
+            rightside
+            eeeeeeeeeee
+            eeeeeeeeell
+            llllllllllll
+            lllllllllllll
+            llllllllllll
+            </p>
+          </div>
+          
+        </div>
+      </section>
+    </div>
+  );
+}
+
+/*
       <div className="singlePostWrapper">
         <h1 className="singlePostTitle">{title} </h1>
         
@@ -63,13 +331,14 @@ export default function SinglePost() {
         <div className="postbody">
           {parse(postbody)}
         </div>
+
         
-        
-        {/* // test - here is where you would insert the additional blog content. */}
+        /* // test - here is where you would insert the additional blog content.
         <br />
         
-        {/* // test */}
       </div>
     </div>
   );
 }
+
+*/
