@@ -4,6 +4,14 @@
     border-radius: 5px;
     background-color: var(--body_background);
     color: var(--body_color);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .5s;
+  }
+
+  .postItem:hover .postItemImg {
+    transform: scale(1.2)
+
   }
 
   .postImg {
@@ -16,6 +24,7 @@
 
   .postInfo {
     display: flex;
+    margin-top: 20px;
     flex-direction: column;
     align-items: center;
     border-bottom-left-radius: 5px;

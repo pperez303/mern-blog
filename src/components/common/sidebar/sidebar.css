@@ -1,6 +1,8 @@
 .sidebar {
     flex: 3;
-    margin: 10px;
+    max-width: 260px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding-bottom: 30px;
     background-color: var(--body_background);
     color: var(--body_color);
@@ -14,6 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 5px;
   }
   
   .sidebarTitle {
@@ -49,8 +52,8 @@
   
   .sidebarListItem {
     display: inline-block;
-    width: 50%;
-    margin-top: 15px;
+    margin-top: 5px;
+    padding-right: 5px;
     cursor: pointer;
   }
   

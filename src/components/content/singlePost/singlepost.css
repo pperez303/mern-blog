@@ -88,7 +88,7 @@ align-items: center;
 .contactMeButton {
   padding: 10px 10px 10px 10px;
   background-color:  #997c3e;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
 .contactMeButton .link {
@@ -100,8 +100,15 @@ align-items: center;
   letter-spacing: 0.2px;
 }
 
+/* sticky position set to 50px, which the height of the Nav bar */
+.postSectionDivider{
+  position: sticky;
+  top: 50px;
+  margin-bottom: 20px;
+  }
+
 .hrSolid {
-  border: 1px solid red;
+  border: 1px solid var(--body_background);
 }
 
 .postSectionBottom {
@@ -110,24 +117,24 @@ align-items: center;
   margin-bottom: 0px;
   align-items: center;
   justify-content: center;
-
   color: var(--body_color);
   text-align: center;
 }
 
 .postSectionBottom .postBody {
   display: flex;
-  max-width: 1150px;
-
+  width: 1150px;
 }
 
+/* sticky position set to 51px, which the height of the Nav bar and the divider section */
 .postBodyLeft {
   display: flex;
   flex-direction: column;
-  background-color: blue;
   width: 25%;
   height: 600px;
   margin: 10px;
+  position: sticky;
+  top: 52px;
 
 }
 
@@ -137,6 +144,23 @@ align-items: center;
   margin: 10px;
   padding: 10px;
   text-align: left;
+  overflow: hidden;
+  object-fit: cover;
+  word-wrap: break-word;
+}
+
+.image img {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+p img {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 

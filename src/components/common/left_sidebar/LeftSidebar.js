@@ -15,24 +15,29 @@ function LeftSidebar() {
         </div>
         <div className="leftSideContent">
             <h3 className="leftSidecontentHeader">
-                Build a personal website?
+                Build a Personal Website?
             </h3>
             <div className="leftSideContentText">
-                <li><b>Fun way to learn programming.</b></li>
-                <li><b>Fun way to learn programming.</b></li>
-                
+                <li>Create your personal brand</li>
+                <li>Show your work</li>
+                <li>Share information</li>
+                <li>Easy way to contact you</li>         
             </div>
             <br></br>
             <h3 className="leftSidecontentHeader">
-                Why build a personal website?
+                Why Build Your Own?
             </h3>
             <div className="leftSideContentText">
-                <li><b>Fun way to learn programming.</b></li>
-                <li><b>Fun way to learn programming.</b></li>
-                
+                <li>Fun way to learn programming.</li>
+                <li>Employment opportunities</li>
+                <li>Develop your career</li>
             </div>
-            <div className="leftSideButton">
-                leftside button
+            <div className="leftSideButtonContainer">
+                <button className="leftSideButton">
+                    <Link className="link" to="/contact">
+                        Go to build steps
+                    </Link>
+                </button>
             </div>
         </div>
     </aside>

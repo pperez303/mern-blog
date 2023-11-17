@@ -25,8 +25,10 @@ function Contact () {
                     email: peteperez.lv@gmail.com
                 </p>
             </div>
-
-            <Sidebar className="sidebar" />
+            <div className="contactSidebar">
+                 <Sidebar/>
+            </div>
+           
         </main>
     </>
     )

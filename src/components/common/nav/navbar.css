@@ -15,6 +15,13 @@
     flex: 6;
   }
 
+  .navLogo {
+    justify-content: left;
+    margin-left: 20px;
+    font-family: "Princess Sofia";
+    font-size: 18px;
+  }
+
   .navList {
     display: flex;
     justify-content: center;

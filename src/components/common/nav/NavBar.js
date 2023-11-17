@@ -6,6 +6,7 @@ function NavBar() {
 
     return (
         <header className="nav_header">
+            <div className="navLogo">nubeWebDev</div>
             <nav className="navCenter">
                 <ul className="navList">
                     <li className="navListItem">

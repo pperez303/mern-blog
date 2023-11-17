@@ -32,7 +32,10 @@ function About () {
                     alias voluptatem cum quo reprehenderit, voluptas sed.
                 </p>
             </div>
-            <Sidebar className="sidebar"/>
+            <div className="aboutSidebar">
+                <Sidebar/>
+            </div>
+            
         </div>
     </div>
     )
