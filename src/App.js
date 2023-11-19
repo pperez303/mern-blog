@@ -1,3 +1,5 @@
+// ci/cd configure in the droplet ~/backend-apps/api-action-runner/
+
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 
 // Components
