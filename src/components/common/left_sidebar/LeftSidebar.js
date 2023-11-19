@@ -11,7 +11,7 @@ function LeftSidebar() {
   return (
     <aside className="leftSideMain">
         <div className="leftSideImg">
-            <img src={leftSideImage} alt="left side image" />
+            <img src={leftSideImage} alt="leftside" />
         </div>
         <div className="leftSideContent">
             <h3 className="leftSidecontentHeader">
