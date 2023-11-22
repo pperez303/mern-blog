@@ -36,8 +36,8 @@ align-items: center;
 .postHeaderTitle {
   text-align: center;
   margin: 10px;
-  font-family: "Lora", serif;
-  font-size: 4em;
+  font-family: "Valera Round", sans-serif;
+  font-size: 3em;
   color: var(--body_color);
 }
 
@@ -117,7 +117,11 @@ align-items: center;
   margin-bottom: 0px;
   align-items: center;
   justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
   color: var(--body_color);
+  line-height: 1.2em;
   text-align: center;
 }
 
@@ -126,12 +130,20 @@ align-items: center;
   width: 1150px;
 }
 
+.postSectionBottom h2 {
+  font-weight: 300;
+}
+
+.postSectionBottom h3 {
+  font-weight: 400;
+}
+
 /* sticky position set to 51px, which the height of the Nav bar and the divider section */
 .postBodyLeft {
   display: flex;
   flex-direction: column;
   width: 25%;
-  height: 600px;
+  height: 500px;
   margin: 10px;
   position: sticky;
   top: 52px;
@@ -139,7 +151,7 @@ align-items: center;
 }
 
 .postBodyRight {
-  background-color: green;
+  background-color: black;
   width: 75%;
   margin: 10px;
   padding: 10px;

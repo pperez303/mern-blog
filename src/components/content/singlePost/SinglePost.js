@@ -46,7 +46,7 @@ export default function SinglePost() {
           </div>
           <div className="postHeaderInfo">
             <div className="postHeaderTitle">{title} </div>
-            <div className="postHeaderHook">{desc}</div>
+            {/* <div className="postHeaderHook">{desc}</div> */}
             <div className="metaData">
               <div className="postHeaderAuthor">
                 Author:
@@ -58,7 +58,7 @@ export default function SinglePost() {
                 {new Date(post.createdAt).toDateString()}
               </div>
             </div>
-            
+            <div className="navLogo">nubeWebDev</div>
           </div>
         </div>
       </section>
@@ -88,6 +88,7 @@ export default function SinglePost() {
             <div className="singlePostDesc">
               <p className="postDescription">{desc}</p>
             </div>
+            <br/>
             <div className="postbody">
               {parse(postbody)}
             </div>
