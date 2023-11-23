@@ -138,6 +138,11 @@ align-items: center;
   font-weight: 400;
 }
 
+
+.postSectionBottom h4 {
+  font-weight: 400;
+}
+
 /* sticky position set to 51px, which the height of the Nav bar and the divider section */
 .postBodyLeft {
   display: flex;
