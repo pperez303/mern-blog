@@ -1,7 +1,4 @@
 import "./homesectionhero.css";
-import { Link } from "react-router-dom";
-import image1 from "../../../assets/images/image1.jpg";
-
 export default function HomeSectionHero() {
     return (
       <section className="home-hero">
