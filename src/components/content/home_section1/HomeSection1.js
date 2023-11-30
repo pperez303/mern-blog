@@ -1,5 +1,5 @@
 import "./homesection1.css";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import image1 from "../../../assets/images/image1.jpg";
 
 

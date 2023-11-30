@@ -1,6 +1,5 @@
 import "./homesection3.css";
-import { Link } from "react-router-dom";
-import image3 from "../../../assets/images/image3.png";
+
 
 export default function HomeSection3() {
     return (
