@@ -3,6 +3,10 @@
   --body_background: #282c34;
   --body_color: white;
   --link_color: rgb(154, 158, 160);
+  --dark-color: #181e1e;
+  --red-color: #e63946;
+  --pink-color: #FF6864;
+  --yellow-color: #ffca28;
 }
 
 /* the following can be used if you implement a theme toggle;

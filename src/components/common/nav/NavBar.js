@@ -10,7 +10,12 @@ function NavBar() {
             <nav className="navCenter">
                 <ul className="navList">
                     <li className="navListItem">
-                        <Link className="link" to="/">
+                        <Link className="link" to="/home">
+                            Home
+                        </Link>
+                    </li>
+                    <li className="navListItem">
+                        <Link className="link" to="/blog">
                             Blog
                         </Link>
                     </li>
