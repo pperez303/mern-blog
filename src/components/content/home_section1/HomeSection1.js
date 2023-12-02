@@ -7,7 +7,7 @@ export default function HomeSection1() {
   const navigate = useNavigate();
 
   const navigateToBlog = () => {
-    navigate('/blog');
+    navigate('/post/652e2c0db15d3c3becd2fa2d');
   }
 
     return (
@@ -21,7 +21,7 @@ export default function HomeSection1() {
               </p>
 
               <button className="homesection1-left-column-call-to-action-button" onClick={navigateToBlog}>
-                Website Development Steps &raquo;
+                Learm more &raquo;
               </button>
 
             </div>

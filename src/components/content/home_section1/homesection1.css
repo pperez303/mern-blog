@@ -46,22 +46,18 @@ padding: 50px;
     min-width: 200px;
     max-width: 400px;
     padding: 10px 10px 10px 10px;
-    background-color:  #FF5001;
+    background-color: #ae2d59;
+    color: white;
+    border: 1px solid #cb376a;
     border-radius: 10px;
     margin: 20px;
 }
 
 .homesection1-left-column-call-to-action-button:hover {
-    background-color: #ff9101;
+    background-color: #cb376a;
     border: 1px solid #db7598;
 }
 
-.homesection1-left-column-call-to-action-button .link {
-    color: #231F20;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-}
 
 .homesection1-right-column {
     width: 50%;

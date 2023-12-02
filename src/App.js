@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 
 // Components
 import NavBar from './components/common/nav/NavBar';
+import ScrollToTop from './components/common/scroll_to_top/ScrollToTop';
 
 // Pages
 import HomePage from "./pages/home_page/HomePage";
@@ -17,6 +18,7 @@ function App() {
   return (
 
     <Router>
+      <ScrollToTop />
       <NavBar />
       <Routes>
       <Route exact path="/" element={<HomePage />} />

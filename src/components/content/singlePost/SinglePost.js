@@ -67,9 +67,10 @@ export default function SinglePost() {
           social Icons
         </div>
         <div className="contactMe">
+          <p className="contact-me-help">Do you need some guidance?</p>
           <button className="contactMeButton">
             <Link className="link" to="/contact">
-              Contact me if you have any questions
+              Contact me
             </Link>
           </button>
         </div>

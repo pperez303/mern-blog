@@ -11,8 +11,9 @@ function Home() {
     return (
     <main className="homeMain">
         <HomeSectionHero />
-        <HomeSection1 />
         <HomeSection2 />
+        <HomeSection1 />
+
         <HomeSection3 />
     </main>
     )
