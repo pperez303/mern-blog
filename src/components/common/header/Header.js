@@ -1,6 +1,6 @@
 import React from "react"
 import "./header.css"
-import hdrImage1 from "../../../assets/images/header2.jpg";
+//import hdrImage1 from "../../../assets/images/header2.jpg";
 
 export default function Header() {
   return (
