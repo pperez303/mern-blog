@@ -12,24 +12,19 @@ function About () {
         <Header />
         <div className="aboutArea">
             <div className="aboutInfo">
-                <header className="aboutHeader">
-                    <img className = "aboutImg" src={neo} alt="" />
-                    <div className="aboutName">
-                        <h3>Peter Perez</h3>
-                        <p>Technical Project Manager</p>
-                    </div>
-                </header>
+                <h1>About Me</h1>
+                <h3>Developer and IT Project Manager</h3>
+
                 <p className="aboutDesc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Modi laudantium atque quisquam, perferendis id maxime 
-                    aliquam praesentium numquam ipsum debitis, eligendi 
-                    aspernatur hic tempora ab. Quidem non exercitationem sit porro!
+                    My IT journey began in the US Army, where I served in the 25th and 9th Infantry Divisions between the years of 1972 to 1979.  
                 </p>
+                <p>Yes, I do remember programming languages COBOL and assembler for the IBM 360 architecture. The good old days!</p>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Nesciunt ab suscipit ducimus! Quod libero eligendi esse 
-                    similique praesentium neque rem, assumenda rerum nesciunt 
-                    alias voluptatem cum quo reprehenderit, voluptas sed.
+                    After aproximatly 7 years in the military I joined the Boeing company as software developer.  
+                    My career continued to grow landing jobs at Rainer Bank, Arthur Young, Nike, Credit One Bank, and Barrick Gold.
+                </p>
+                <p>Now, I am a freelance consultant with a strong background in IT Project Management. The purpose of this website is to
+                   share my expriences and knowledge to help individuals and companies acheive their goals.
                 </p>
             </div>
             <div className="aboutSidebar">
