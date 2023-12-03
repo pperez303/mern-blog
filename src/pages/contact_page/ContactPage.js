@@ -1,9 +1,9 @@
 import "./contactpage.css";
-import neo from "../../assets/images/neo.jpg";
-import businesscard from "../../assets/images/business-card1.png";
+//import neo from "../../assets/images/neo.jpg";
+//import businesscard from "../../assets/images/business-card1.png";
 
 // Components
-import Sidebar from "../../components/common/sidebar/Sidebar";
+//import Sidebar from "../../components/common/sidebar/Sidebar";
 import Header from "../../components/common/header/Header";
 
 function Contact () {  
