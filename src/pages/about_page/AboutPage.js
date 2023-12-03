@@ -1,6 +1,6 @@
 //import React from 'react';  
 import "./aboutpage.css";
-import neo from "../../assets/images/neo.jpg"
+//import neo from "../../assets/images/neo.jpg"
 
 //components
 import Sidebar from "../../components/common/sidebar/Sidebar";
