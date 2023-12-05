@@ -1,5 +1,6 @@
 
 .leftSideMain {
+   display: block;
     max-height: 580px;
     background-color: var(--body_background);
     color: var(--body_color);
