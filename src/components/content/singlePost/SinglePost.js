@@ -92,7 +92,7 @@ export default function SinglePost() {
                 <p className="postDescription">{desc}</p>
               </div>
               <br/>
-              <div className="postbody">
+              <div className="postContent">
                 {parse(postbody)}
               </div>
           </div>
