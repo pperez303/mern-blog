@@ -64,17 +64,17 @@ export default function SinglePost() {
       </section>
       <section className="postSectionMiddle">
         <div className="postMiddle">
-        <div className="socialIcons">
-          social Icons
-        </div>
-        <div className="contactMe">
-          <p className="contact-me-help">Do you need some guidance?</p>
-          <button className="contactMeButton">
-            <Link className="link" to="/contact">
-              Contact me
-            </Link>
-          </button>
-        </div>
+          <div className="socialIcons">
+            social Icons
+          </div>
+          <div className="contactMe">
+            <p className="contact-me-help">Do you need some guidance?</p>
+            <button className="contactMeButton">
+              <Link className="link" to="/contact">
+                Contact me
+              </Link>
+            </button>
+          </div>
         </div>
       </section>
       <section className="postSectionDivider">
@@ -83,6 +83,7 @@ export default function SinglePost() {
         </div>
       </section>
       <section className="postSectionBottom">
+        <div className="postBottom">
           <div className="postSideBar">
             <Sidebar className="sidebar"/>
           </div>
@@ -94,7 +95,9 @@ export default function SinglePost() {
               <div className="postbody">
                 {parse(postbody)}
               </div>
+          </div>
         </div>
+          
       </section>
     </div>
   );
