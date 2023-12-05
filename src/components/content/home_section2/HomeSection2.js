@@ -1,17 +1,17 @@
 import "./homesection2.css";
-
+import image2 from "../../../assets/images/image2.jpg";
 
 export default function HomeSection2() {
     return (
       <section className="homesection2">
         <div className="homesection2-two-column">
             <div className="homesection2-left-column">
-                <h2 className="logo">nubeWebDev</h2>
-                {/*}
+                {/*<h2 className="logo">nubeWebDev</h2>*/}
+                
                 <div className="homesection2-left-column-image">
                     <img className="image2" src={image2} alt="personal website" />
                 </div>
-                */}
+            
             </div>
             <div className="homesection2-right-column">
                 <div className="homesection2-right-column-content">

@@ -10,4 +10,8 @@
 .text-center {
     text-align: center;
   }
+
+  @media (max-width: 40em) {
+    .homeMain {display: block};
+  }
   

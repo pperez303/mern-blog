@@ -8,21 +8,14 @@
     display: flex;
     padding-left: 50px;
     padding-right: 50px;
+    justify-content: center;
+    align-items: center;
 }
-
+  
 
 .homesection2-left-column {
-    justify-content: right;
-    align-items: top;
-    display: flex;
     width: 50%;
-    height: auto;
-    background: url(/src/assets/images/image2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    filter: brightness(50%);
-    border-radius: 5px;
+
 }
 
 .logo {
@@ -33,67 +26,87 @@
     padding: 10px;
 }
 
+
 .homesection2-left-column-image {
     width: 100%;
-    height: auto;
-    padding: 0px;
-    
+    height: 100%;
 }
 
-.homesection2-left-column-image .image2 {
+.image2 {
+    width: 100%;
+    height: 100%;
     border-radius: 5px;
 }
-
-
 
 .homesection2-right-column {
     align-items: center;
     width: 50%;
-
 }
 
 .homesection2-right-column-content {
-    display: flex;
-    flex-direction: column;
+
+    width: 100%;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: auto%;
+
 }
 
 .homesection2-right-column-vision {
+
     font-family: "Roboto", sans-serif;
     font-size: 48px;
     font-weight: 500;
     text-align: center;
     color: black;
-    margin: 10px;
+    padding: 10px;
 }
 
 .homesection2-right-column-vision-text {
+    width: 100%;
     font-family: "Roboto", sans-serif;
     font-size: 21px;
     font-weight: 500;
     color: black;
     text-align: center;
-    margin: 10px;
+    padding: 10px;
 }
 
 .homesection2-right-column-mission {
+    width: 100%;
     font-family: "Roboto", sans-serif;
     font-size: 48px;
     font-weight: 500;
     text-align: center;
     color: black;
-    margin: 10px;
+    padding: 10px;
 }
 
 .homesection2-right-column-mission-text {
+    width: 100%;
     font-family: "Roboto", sans-serif;
     font-size: 21px;
     font-weight: 500;
     color: black;
     text-align: center;
-    margin: 10px;
+    padding: 10px;
 }
+
+@media (max-width: 40em) {
+    .homesection2-two-column {display: block; padding: 0px;};
+  }
+
+@media (max-width: 40em)
+{
+  .homesection2-left-column {
+    width: 100%;
+    }
+}
+
+@media (max-width: 40em)
+{
+  .homesection2-right-column {
+    width: 100%;
+    }
+}
+
 

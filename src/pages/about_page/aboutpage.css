@@ -47,3 +47,8 @@
   .aboutSidebar {
     margin-top: 10px;
   }
+
+  @media (max-width: 40em) {
+    .aboutArea {display: block};
+  }
+  
