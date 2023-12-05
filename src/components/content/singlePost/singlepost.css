@@ -4,7 +4,6 @@
 
 .postSectionTop {
 width: 100%;
-height: auto;
 background-color: var(--body_background);
 }
 
@@ -15,11 +14,11 @@ align-items: center;
 
 .postHeaderImage {
   min-width: 50%;
-
 }
+
 .postHeaderImage img {
+  display: block;
   width: 100%;
-  max-height: 450px;
   object-fit: cover;
 }
 
@@ -29,23 +28,16 @@ align-items: center;
   align-items: center;
   min-width: 50%;
   color: var(--body_color);
-
 }
 
 .postHeaderTitle {
   text-align: center;
   margin: 10px;
   font-family: "Valera Round", sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   color: var(--body_color);
 }
 
-.postHeaderHook {
-  font-family: "Valera Round", sans-serif;
-  font-size: 3em;
-  color: var(--body_color);
-  margin: 10px;
-}
 
 .metaData {
   display: flex;
@@ -66,10 +58,9 @@ align-items: center;
 
 .postSectionMiddle {
   display: flex;
-  height: auto;
-  padding: 20px;
+  padding: 10px;
   align-items: center;
-  background-color: b;
+  background-color: black;
 }
 
 .socialIcons {
@@ -91,13 +82,13 @@ align-items: center;
   color: white;
   font-family: "Roboto" sans-serif;
   font-size: 18px;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 .contactMeButton {
   padding: 10px 10px 10px 10px;
   background-color: var(--red-color);
-  border-radius: 20px;
+  border-radius: 10px;
   width: 50%;
 }
 
@@ -129,20 +120,33 @@ align-items: center;
   display: flex;
   margin-top: 10px;
   margin-bottom: 0px;
-  align-items: center;
+
   justify-content: center;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 1.2em;
-
+  
   color: white;
   line-height: 1.5em;
   text-align: center;
 }
 
-.postSectionBottom .postBody {
+.postSideBar {
+  width: 25%;
+  height: 500px;
+  margin: 10px;
+  top: 52px;
+}
+
+.postBody {
   display: flex;
-  width: 1150px;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  word-wrap: break-word;
+  width: 50%;
 }
 
 .postSectionBottom h2 {
@@ -158,52 +162,27 @@ align-items: center;
   font-weight: 400;
 }
 
-/* sticky position set to 51px, which the height of the Nav bar and the divider section */
-.postBodyLeft {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-  height: 500px;
-  margin: 10px;
-  position: sticky;
-  top: 52px;
-
-}
-
-.postBodyRight {
-  background-color: black;
-  width: 75%;
-  margin: 10px;
-  padding: 10px;
-  text-align: left;
-  overflow: hidden;
-  object-fit: cover;
-  word-wrap: break-word;
-}
-
-.image img {
-  padding: 10px;
-  width: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-}
-
-p img {
-  padding: 10px;
-  width: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-}
 
 @media (max-width: 40em) {
   .postHeaderTop {display: block};
-  .postSectionMiddle {display: block};
+  .postSectionBottom {display: block};
 }
 
+/*.image img {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+*/
 
-
-
-
+/*p img {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+*/
 
   /*
   .singlePostWrapper {

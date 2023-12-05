@@ -1,4 +1,4 @@
-import "./homesectionhero.css";
+import "./homesectionhero2.css";
 import { useNavigate } from "react-router-dom";
 
 export default function HomeSectionHero() {
@@ -10,7 +10,7 @@ export default function HomeSectionHero() {
     }
     return (
       <section className="home-hero">
-         <div className="home-hero-content">
+         <div className="home-hero-content text-center">
             <h1 className="home-hero-title">
                 Create a personal website!
             </h1>

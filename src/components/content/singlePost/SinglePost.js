@@ -39,11 +39,11 @@ export default function SinglePost() {
     <div className="postContainer">
       <section className="postSectionTop">
         <div className="postHeaderTop">
+
           <div className="postHeaderImage">
-            {post.photo && (
               <img src={PubFolder + post.photo} alt="" className="singlePostImg" />
-            )}
           </div>
+
           <div className="postHeaderInfo">
             <div className="postHeaderTitle">{title} </div>
             {/* <div className="postHeaderHook">{desc}</div> */}
@@ -81,20 +81,19 @@ export default function SinglePost() {
         </div>
       </section>
       <section className="postSectionBottom">
-        <div className="postBody">
-          <div className="postBodyLeft">
-          <Sidebar className="sidebar"/>
+          <div className="postSideBar">
+            <Sidebar className="sidebar"/>
           </div>
-          <div className="postBodyRight">
-            <div className="singlePostDesc">
-              <p className="postDescription">{desc}</p>
-            </div>
-            <br/>
-            <div className="postbody">
-              {parse(postbody)}
-            </div>
-          </div>
-          
+          <div className="postBody">
+
+              <div className="singlePostDesc">
+                <p className="postDescription">{desc}</p>
+              </div>
+              <br/>
+              <div className="postbody">
+                {parse(postbody)}
+              </div>
+
         </div>
       </section>
     </div>

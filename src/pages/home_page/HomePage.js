@@ -13,8 +13,7 @@ function Home() {
         <HomeSectionHero />
         <HomeSection2 />
         <HomeSection1 />
-
-        <HomeSection3 />
+        <HomeSection3 /> 
     </main>
     )
 }  

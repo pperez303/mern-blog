@@ -7,6 +7,8 @@
   --red-color: #e63946;
   --pink-color: #FF6864;
   --yellow-color: #ffca28;
+  --ff-primary: "Roboto", sans-sarif;
+  --ff-accent: "Playfair Display", serif;
 }
 
 /* the following can be used if you implement a theme toggle;
