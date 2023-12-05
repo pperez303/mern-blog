@@ -141,14 +141,14 @@ align-items: center;
 
 
 .postSideBar {
-  min-width: 20%;
+  min-width: 250px;
   margin: 10px;
   top: 52px;
+  text-align: center;
 }
 
 .postBody {
-  display: flex;
-  flex-direction: column;
+
   font-weight: 300;
   font-size: 1.2em;
   
@@ -158,7 +158,7 @@ align-items: center;
   padding: 10px;
   text-align: left;
   word-wrap: break-word;
-  width: 50%;
+  min-width: 50%;
 }
 
 .singlePostDesc {
@@ -185,9 +185,12 @@ align-items: center;
 
 @media (max-width: 40em) {
   .postHeaderTop {display: block};
-  .postMiddle {display: block};
+}
+
+@media (max-width: 40em) {
   .postBottom {display: block};
 }
+
 
 /*.image img {
   padding: 10px;
