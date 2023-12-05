@@ -38,7 +38,6 @@ align-items: center;
   color: var(--body_color);
 }
 
-
 .metaData {
   display: flex;
   width: 100%;
@@ -57,10 +56,13 @@ align-items: center;
 }
 
 .postSectionMiddle {
-  display: flex;
   padding: 10px;
-  align-items: center;
   background-color: black;
+}
+
+.postMiddle {
+  display: flex;
+  align-items: center;
 }
 
 .socialIcons {
@@ -109,7 +111,6 @@ align-items: center;
 .postSectionDivider{
   position: sticky;
   top: 50px;
-
   }
 
 .hrSolid {
@@ -132,7 +133,7 @@ align-items: center;
 }
 
 .postSideBar {
-  width: 25%;
+  min-width: 25%;
   height: 500px;
   margin: 10px;
   top: 52px;
@@ -165,6 +166,7 @@ align-items: center;
 
 @media (max-width: 40em) {
   .postHeaderTop {display: block};
+  .postMiddle {display: block};
   .postSectionBottom {display: block};
 }
 
