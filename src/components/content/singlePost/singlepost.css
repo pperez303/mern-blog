@@ -161,6 +161,14 @@ align-items: center;
   width: 50%;
 }
 
+.singlePostDesc {
+  width: 100%;
+}
+
+.postContent {
+  width: 100%;
+}
+
 .postSectionBottom h2 {
   font-weight: 300;
 }
