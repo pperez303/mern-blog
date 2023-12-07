@@ -92,6 +92,10 @@
 }
 
 @media (max-width: 40em) {
+    .homesection2 {margin-top: 0px;};
+  }
+
+@media (max-width: 40em) {
     .homesection2-two-column {display: block; padding: 0px;};
   }
 

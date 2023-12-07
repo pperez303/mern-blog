@@ -1,11 +1,14 @@
 .homeSection1 {
     width: 100%;
     background-color: var(--dark-color);
+
 }
 
 .homesection1-two-column {
     display: flex;
-padding: 50px;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .homesection1-left-column {
@@ -66,13 +69,30 @@ padding: 50px;
 .homesection1-right-column-image {
     width: 100%;
     height: 100%;
-    padding-top: 25px;
 }
 
 .homesection1-right-column-image .image1 {
     width: 100%;
     height: auto;
     border-radius: 5px;
+}
+
+@media (max-width: 40em) {
+    .homesection1-two-column {display: block; padding: 0px;};
+  }
+
+@media (max-width: 40em)
+{
+  .homesection1-right-column {
+    width: 100%;
+    }
+}
+
+@media (max-width: 40em)
+{
+  .homesection1-left-column {
+    width: 100%;
+    }
 }
 
 

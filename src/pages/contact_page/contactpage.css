@@ -1,10 +1,13 @@
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300';
 
+.contact-page {
+  width: 100%;
+}
 
-
-
-  
+.header-container {
+  width: 100%;
+}
 
 .container {
   perspective: 800px;
@@ -92,7 +95,7 @@ p {
 }
 
 /* Make semi-responsive */
-@media (max-width:700px) {
+@media (max-width: 40em) {
   .card { transform: scale(.5); }
   .container:hover .card { transform: scale(.5) rotateY(-180deg) translateZ(1px); }
 }

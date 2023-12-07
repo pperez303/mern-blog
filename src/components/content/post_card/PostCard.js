@@ -14,6 +14,12 @@ export default function Post({ post }) {
         <Link to={`/post/${post._id}`} className="link"> 
           {post.photo && <img className="postImg" src={path + post.photo} alt="" />}
         </Link>
+        <div className="articleImageGroup">
+           <h2 className="articleHeader">{post.articleheader}</h2>
+           <h3 className="articleSubHeader">{post.articlesubheader}</h3>
+           <h4 className="modelNumber">{post.modulenumber}</h4>
+        </div>
+       
       </div>
       
       <div className="postInfo">

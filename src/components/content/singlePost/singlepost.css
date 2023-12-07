@@ -118,6 +118,7 @@ align-items: center;
 }
 
 .postSectionBottom {
+  width: 100%;
   padding: 10px;
   background-color: black;
   /*width: 50%;
@@ -148,17 +149,15 @@ align-items: center;
 }
 
 .postBody {
-
+  width: 50%;
   font-weight: 300;
   font-size: 1.2em;
-  
+  line-height: 1.2em;
   color: white;
-  line-height: 1.5em;
-  margin: 10px;
   padding: 10px;
   text-align: left;
   word-wrap: break-word;
-  min-width: 50%;
+
 }
 
 .singlePostDesc {
@@ -182,9 +181,21 @@ align-items: center;
   font-weight: 400;
 }
 
+.postBody p {
+  margin-top: 5px;
+}
+
+.postBody h2 {
+  text-align: center;
+}
+
 
 @media (max-width: 40em) {
   .postHeaderTop {display: block};
+}
+
+@media (max-width: 40em) {
+  .postBody {width: 100%;};
 }
 
 @media (max-width: 40em) {

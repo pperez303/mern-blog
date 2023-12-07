@@ -10,7 +10,7 @@ function Contact () {
     return (
     <>
         <div className="contact-page">
-            <div>
+            <div className="header-container">
                 <Header />
             </div>
 

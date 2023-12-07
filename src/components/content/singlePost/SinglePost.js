@@ -88,10 +88,6 @@ export default function SinglePost() {
             <Sidebar className="sidebar"/>
           </div>
           <div className="postBody">
-              <div className="singlePostDesc">
-                <p className="postDescription">{desc}</p>
-              </div>
-              <br/>
               <div className="postContent">
                 {parse(postbody)}
               </div>

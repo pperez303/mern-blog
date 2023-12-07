@@ -1,6 +1,7 @@
 .postItem {
     width: 400px;
-    /*margin: 0px 5px 5px 5px;*/
+    height: 500px;
+    margin: 0px 5px 5px 5px;
     border-radius: 5px;
     background-color: var(--body_background);
     color: var(--body_color);
@@ -9,9 +10,32 @@
     transition: all .5s;
   }
 
+  .postItemImg {
+    position: relative;
+  }
+
+.articleImageGroup {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    line-height: 1.2em;
+  }
+
+.articleImageGroup h2, h3, h4 {
+  font-family: "roboto" sans-serif;
+  font-weight: 400;
+  padding: 10px;
+}
+
+
+.articleImageGroup h4 {
+  padding-top: 60px;
+}
+
   .postItem:hover .postItemImg {
     transform: scale(1.2)
-
   }
 
   .postImg {
@@ -20,6 +44,7 @@
     object-fit: cover;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    filter: brightness(60%);
   }
 
   .postInfo {
