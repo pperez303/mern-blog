@@ -81,18 +81,22 @@
   color: wheat;
   margin-bottom: 0;
 }
-p {
-  margin: 0.8em 0;
-}
+
 .info {
   position: absolute;
   bottom: 30px;
   left: 30px;
   color: #3b3b3b;
 }
+
+.contactInfo {
+  margin: 0.8em 0;
+}
+
 .property {
   color: #fff;
 }
+
 
 /* Make semi-responsive */
 @media (max-width: 40em) {

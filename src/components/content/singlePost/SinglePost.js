@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import parse from "html-react-parser";
 import "./singlepost.css";
 
-import Sidebar from "../../common/left_sidebar/LeftSidebar";
+//import Sidebar from "../../common/left_sidebar/LeftSidebar";
 
 
 export default function SinglePost() {
@@ -42,11 +42,15 @@ export default function SinglePost() {
 
           <div className="postHeaderImage">
               <img src={PubFolder + post.photo} alt="" className="singlePostImg" />
+              <div className="postHeaderImageText">
+                <h2 className="posteader">{post.articleheader}</h2>
+                <h3 className="postSubHeader">{post.articlesubheader}</h3>
+                <h4 className="postModuleNumber">{post.modulenumber}</h4>
+              </div>
           </div>
 
           <div className="postHeaderInfo">
             <div className="postHeaderTitle">{title} </div>
-            {/* <div className="postHeaderHook">{desc}</div> */}
             <div className="metaData">
               <div className="postHeaderAuthor">
                 Author:
@@ -62,10 +66,42 @@ export default function SinglePost() {
           </div>
         </div>
       </section>
-      <section className="postSectionMiddle">
-        <div className="postMiddle">
+      
+      
+      <section className="postSection">
+        <div className="postGroup">
+          
+          <div className="postBody">
+            <div className="singlePostDesc">
+              <p className="postDescription">{desc}</p>
+            </div>
+            <div className="postContent">
+              {parse(postbody)}
+            </div>
+          </div>
+          {/*
+          <div className="postSideBar">
+            <Sidebar className="sidebar"/>
+          </div>
+  */}
+        </div>
+          
+      </section>
+      <section className="postSectionDivider">
+        <div>
+          <hr className="hrSolid" />
+        </div>
+      </section>
+
+      <section className="postSectionSocial">
+        <div className="postSocial">
           <div className="socialIcons">
-            social Icons
+            <div className="postSocialIcons">
+              <i className="postIcon fab fa-facebook-square"></i>
+              <i className="postIcon fa-brands fa-linkedin"></i>
+              <i className="postIcon fab fa-pinterest-square"></i>
+              <i className="postIcon fab fa-instagram-square"></i>
+            </div>
           </div>
           <div className="contactMe">
             <p className="contact-me-help">Do you need some guidance?</p>
@@ -76,24 +112,6 @@ export default function SinglePost() {
             </button>
           </div>
         </div>
-      </section>
-      <section className="postSectionDivider">
-        <div>
-          <hr className="hrSolid" />
-        </div>
-      </section>
-      <section className="postSectionBottom">
-        <div className="postBottom">
-          <div className="postSideBar">
-            <Sidebar className="sidebar"/>
-          </div>
-          <div className="postBody">
-              <div className="postContent">
-                {parse(postbody)}
-              </div>
-          </div>
-        </div>
-          
       </section>
     </div>
   );

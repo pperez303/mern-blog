@@ -1,7 +1,7 @@
 
 .leftSideMain {
    display: block;
-    max-height: 580px;
+    height: auto;
     background-color: var(--body_background);
     color: var(--body_color);
     align-items: center;

@@ -16,22 +16,24 @@
 
 .articleImageGroup {
     position: absolute;
-    top: 50%;
-    left: 20%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 7%;
     line-height: 1.2em;
   }
 
-.articleImageGroup h2, h3, h4 {
+.articleHeader,
+.articleSubHeader {
   font-family: "roboto" sans-serif;
   font-weight: 400;
   padding: 10px;
+  text-align: left;
 }
-
-
-.articleImageGroup h4 {
+.moduleNumber {
   padding-top: 60px;
+  padding-left: 10px;
+  font-family: "roboto" sans-serif;
+  font-weight: 400;
+  text-align: left;
 }
 
   .postItem:hover .postItemImg {

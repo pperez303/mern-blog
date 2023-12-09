@@ -17,7 +17,7 @@ export default function Post({ post }) {
         <div className="articleImageGroup">
            <h2 className="articleHeader">{post.articleheader}</h2>
            <h3 className="articleSubHeader">{post.articlesubheader}</h3>
-           <h4 className="modelNumber">{post.modulenumber}</h4>
+           <h4 className="moduleNumber">{post.modulenumber}</h4>
         </div>
        
       </div>

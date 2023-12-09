@@ -20,6 +20,23 @@ align-items: center;
   display: block;
   width: 100%;
   object-fit: cover;
+  filter: brightness(60%);
+}
+
+.postHeaderImageText {
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  line-height: 1.2em;
+  color: white;
+}
+
+.postHeader,
+.postSubHeader,
+.postModuleNumber {
+  font-family: "roboto" sans-serif;
+  font-weight: 400;
+  padding-bottom: 20px;
 }
 
 .postHeaderInfo {
@@ -55,12 +72,12 @@ align-items: center;
   text-align: right;
 }
 
-.postSectionMiddle {
+.postSectionSocial {
   padding: 10px;
-  background-color: black;
+  background-color: var(--body_background);
 }
 
-.postMiddle {
+.postSocial {
   display: flex;
   align-items: center;
 }
@@ -71,10 +88,22 @@ align-items: center;
   color: var(--yellow-color);
 }
 
+.postSocialIcons {
+  color: var(--yellow-color);
+  margin-top: 15px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.postIcon {
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
 .contactMe {
   display: flex;
   flex-direction: column;
-  background-color: black;
   width: 50%;
   align-items: center;
   justify-content: center;
@@ -117,7 +146,7 @@ align-items: center;
   border: 1px solid var(--body_background);
 }
 
-.postSectionBottom {
+.postSection {
   width: 100%;
   padding: 10px;
   background-color: black;
@@ -135,58 +164,61 @@ align-items: center;
   text-align: center; */
 } 
 
-.postBottom {
+.postGroup {
   display: flex;
   text-align: center;
+  justify-content: center;
 }
-
 
 .postSideBar {
   min-width: 250px;
-  margin: 10px;
+  margin: 10px 10px 10px 30px;
   top: 52px;
   text-align: center;
 }
 
 .postBody {
   width: 50%;
-  font-weight: 300;
-  font-size: 1.2em;
+  background-color: white;
+  font-weight: 400;
+  font-size: 1.1em;
   line-height: 1.2em;
-  color: white;
+  color: black;
   padding: 10px;
   text-align: left;
   word-wrap: break-word;
-
 }
 
 .singlePostDesc {
   width: 100%;
+  background-color: var(--body_background);
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 .postContent {
   width: 100%;
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-weight: 400;
 }
 
-.postSectionBottom h2 {
+.postSection-t h2 {
   font-weight: 300;
 }
 
-.postSectionBottom h3 {
+.postSection-t h3, h4 {
   font-weight: 400;
 }
 
 
-.postSectionBottom h4 {
-  font-weight: 400;
-}
 
-.postBody p {
-  margin-top: 5px;
-}
 
 .postBody h2 {
-  text-align: center;
+  text-align: left;
+  margin-top: 5pz
 }
 
 
@@ -199,7 +231,7 @@ align-items: center;
 }
 
 @media (max-width: 40em) {
-  .postBottom {display: block};
+  .postGroup {display: block};
 }
 
 
