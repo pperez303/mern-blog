@@ -8,7 +8,7 @@ import "./singlepost.css";
 
 //import Sidebar from "../../common/left_sidebar/LeftSidebar";
 
-
+// Single post
 export default function SinglePost() {
   const location = useLocation();
   console.log(location)
