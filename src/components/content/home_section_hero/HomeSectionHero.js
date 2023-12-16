@@ -9,21 +9,23 @@ export default function HomeSectionHero() {
         navigate('/blog');
     }
     return (
-      <section className="home-hero">
-         <div className="home-hero-content">
-            <h1 className="home-hero-title">
-                Create a personal website!
-            </h1>
-            
-            <h2 className="home-hero-subtitle">
-                Showcase your expriences, creativity, and talents.
-            </h2>
-            
-            <button className="home-hero-button" onClick={navigateToBlog}>
-                Website Development Steps &raquo;
-            </button>
+        <section className="home-hero">
+            <div className="home-hero-content">
+                <h1 className="home-hero-title">
+                    Create a personal website!
+                </h1>
+                
+                <h2 className="home-hero-subtitle">
+                    Showcase your expriences, creativity, and talents.
+                </h2>
+                
+                <button className="home-hero-button" onClick={navigateToBlog}>
+                    Website Development Steps &raquo;
+                </button>
         
         </div>
+        </section>
+    )
         {/*<div className="homesectionhero-two-column">
             <div className="homesectionhero-right-column">
                 <div className="homesectionhero-right-column-image">
@@ -49,6 +51,5 @@ export default function HomeSectionHero() {
     
         </div>
     */}
-      </section>
-    )
+
   }

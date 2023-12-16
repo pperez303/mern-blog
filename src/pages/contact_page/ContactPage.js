@@ -26,8 +26,8 @@ function Contact () {
                         <h3 className="name">Peter Perez</h3>
                         <div>IT Project Manager</div>      
                         <div className="info">
-                            <p className="contactInfo"><span className="property">Email: </span>peteperez.lv@gmail.com</p>
-                            <p className="contactInfo"><span className="property">Linkedin: </span>https://www.linkedin.com/in/pete-perez-6941324/</p>
+                            <p className="contactInfo"><span className="property">Email: </span>some-email-url@gmail.com</p>
+                            <p className="contactInfo"><span className="property">Linkedin: </span>https://www.linkedin.com/in/some-linkedin-id/</p>
                             <p className="contactInfo"><span className="property">Phone: </span>(702) 468-8204</p>
                             <p className="contactInfo"><span className="property">Website: </span>nubeWebDev.com</p>
                         </div>

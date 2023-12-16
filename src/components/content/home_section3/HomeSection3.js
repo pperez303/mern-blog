@@ -10,37 +10,37 @@ export default function HomeSection3() {
               <div className="homesection3-column1">
                 <h3 className="homesection3-column1-header">Plan</h3>
                 <div className="homesection3-column1-text">
-                  <li>Define the website's purpose.</li>
-                  <li>Draft the content for the website.</li>
-                  <li>Design the website layout and colors.</li>
-                  <li>Create your implementation plan.</li>
+                  <li className="homesection3-li">Define the website's purpose.</li>
+                  <li className="homesection3-li">Draft the content for the website.</li>
+                  <li className="homesection3-li">Design the website layout and colors.</li>
+                  <li className="homesection3-li">Create your implementation plan.</li>
                 </div>
               </div>
 
               <div className="homesection3-column2">
                 <h3 className="homesection3-column2-header">Do</h3>
                 <p className="homesection3-column2-text">
-                  <li>Learn basic website design principles.</li>
-                  <li>Use nubeWebDev step by step instructions.</li>
-                  <li>Develop the website with your content.</li>
-                  <li>Keep your content up-to-date and fresh.</li>
+                  <li className="homesection3-li">Learn basic website design principles.</li>
+                  <li className="homesection3-li">Use nubeWebDev step by step instructions.</li>
+                  <li className="homesection3-li">Develop the website with your content.</li>
+                  <li className="homesection3-li">Keep your content up-to-date and fresh.</li>
                 </p>
               </div>
 
               <div className="homesection3-column3">
                 <h3 className="homesection3-column3-header">Check</h3>
                 <p className="homesection3-column3-text">
-                  <li>Analyze the website development results.</li>
-                  <li>Look for improvement opportunities and issues.</li>
-                  <li>Repeat the Do and Check steps.</li>
+                  <li className="homesection3-li">Analyze the website development results.</li>
+                  <li className="homesection3-li">Look for improvement opportunities and issues.</li>
+                  <li className="homesection3-li">Repeat the Do and Check steps.</li>
                 </p>
               </div>
 
               <div className="homesection3-column4">
                 <h3 className="homesection3-column4-header">Act</h3>
                 <p className="homesection3-column4-text">
-                  <li>Deloy the website to a hosting platform.</li>
-                  <li>Return to the Planning step to the next version.</li>
+                  <li className="homesection3-li">Deloy the website to a hosting platform.</li>
+                  <li className="homesection3-li">Return to the Planning step to the next version.</li>
                 </p>
               </div>
             </div>
