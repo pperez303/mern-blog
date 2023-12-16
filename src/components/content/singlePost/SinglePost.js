@@ -14,23 +14,23 @@ export default function SinglePost() {
   console.log(location)
   const path = location.pathname.split("/")[2];
   console.log(path)
-  const [post, setPost] = useState({});
+  
   const PubFolder = process.env.REACT_APP_PROXY + "/api/images/";
   //const { user } = useContext(Context);
+  const [post, setPost] = useState({});
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [postbody, setPostBody] = useState("");
 
   useEffect(() => {
     const getPost = async () => {
-      console.log('In useEffect, PATH = ', path)
       const res = await axios.get(process.env.REACT_APP_PROXY + "/api/posts/" + path);
-      console.log('After useEffect')
       setPost(res.data);
       setTitle(res.data.title);
       setDesc(res.data.desc);
       setPostBody(res.data.postbody);
       console.log(res)
+
     };
     getPost();
   }, [path]);
@@ -41,7 +41,7 @@ export default function SinglePost() {
         <div className="postHeaderTop">
 
           <div className="postHeaderImage">
-              <img src={PubFolder + post.photo} alt="" className="singlePostImg" />
+              <img src={PubFolder + post.photo} alt="" className="" />
               <div className="postHeaderImageText">
                 <h2 className="posteader">{post.articleheader}</h2>
                 <h3 className="postSubHeader">{post.articlesubheader}</h3>
