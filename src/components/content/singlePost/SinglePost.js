@@ -23,7 +23,7 @@ export default function SinglePost() {
 
   useEffect(() => {
     const getPost = async () => {
-      console.log('In useEffect')
+      console.log('In useEffect, PATH = ', path)
       const res = await axios.get(process.env.REACT_APP_PROXY + "/api/posts/" + path);
       console.log('After useEffect')
       setPost(res.data);
