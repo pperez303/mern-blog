@@ -246,12 +246,11 @@ align-items: center;
 }
 
 @media (max-width: 40em) {
-  .postBody {width: 100%;};
+  .postBody {display: block; width: 100%;};
 }
 
 @media (max-width: 40em) {
   .postHeaderTop {display: block};
-  .postGroup {display: block};
 }
 
 
