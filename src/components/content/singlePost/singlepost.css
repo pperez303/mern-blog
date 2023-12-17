@@ -250,7 +250,15 @@ align-items: center;
 }
 
 @media (max-width: 40em) {
-  .postHeaderTop {display: block};
+  .postHeaderInfo {width: 100%;};
+}
+
+@media (max-width: 40em) {
+  .postHeaderImage {width: 100%};
+}
+
+@media (max-width: 40em) {
+  .postHeaderTop {display: block;};
 }
 
 
