@@ -30,7 +30,7 @@
     .aboutArea {display: block; width: 100%};
   }
   @media (max-width: 40em) {
-    .aboutSidebar {display: block; width: 100%;};
+    .aboutSidebar {display: block; width: 100%;margin-left: 70px;};
   }
  
   @media (max-width: 40em) {
