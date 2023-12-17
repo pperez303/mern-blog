@@ -248,18 +248,18 @@ align-items: center;
 @media (max-width: 40em) {
   .postBody {display: block; width: 100%;};
 }
+
 @media (max-width: 40em) {
-  .postHeaderTop {display: block;};
-}
-@media (max-width: 40em) {
-  .postHeaderInfo {width: 100%;};
+  .postHeaderInfo {display: block; width: 100%;};
 }
 
 @media (max-width: 40em) {
-  .postHeaderImage {width: 100%};
+  .postHeaderImage {display: block; width: 100%};
 }
 
-
+@media (max-width: 40em) {
+  .postHeaderTop {display: block; width: 100%;};
+}
 
 
 
