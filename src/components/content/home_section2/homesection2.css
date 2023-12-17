@@ -105,14 +105,12 @@
 }
 
 @media (max-width: 40em) {
-    .homesection2 {margin-top: 0px;};
-  }
-  
-@media (max-width: 40em) {
     .homesection2-two-column {display: block; width: 100%; padding: 0px; margin-top: 0px;};
   }
 
-  
+  @media (max-width: 40em) {
+    .homesection2 {margin-top: 0px;};
+  }
 
 
 
