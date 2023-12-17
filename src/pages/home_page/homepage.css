@@ -1,4 +1,5 @@
 .homeMain {
+
     background-color: #EFEFEF;
     background-image: linear-gradient(to bottom, #EFEFEF, black);
     font-family: var(--ff-primary);
@@ -12,6 +13,6 @@
   }
 
   @media (max-width: 40em) {
-    .homeMain {display: block};
+    .homeMain {display: block;};
   }
   
