@@ -95,17 +95,14 @@
 }
 
 @media (max-width: 40em) {
-    .homesection2-two-column {display: block; width: 100%; padding: 0px;};
-   
+    .homesection2-two-column {display: block; width: 100%; padding: 0px; margin-top: 0px;};
+
   }
 
 @media (max-width: 40em) {
-     .homesection2-left-column {display: block; width: 100%;}
+     .homesection2-left-column {width: 100%;}
 }
 
-@media (max-width: 40em) {
-    .homesection2-left-column-image {display: block; width: 100%;}
-}
 
 @media (max-width: 40em) {
   .homesection2-right-column {width: 100%;}
