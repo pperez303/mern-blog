@@ -1,5 +1,6 @@
 .homesection2 {
     width: 100%;
+    height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -97,21 +98,15 @@
   }
 
 @media (max-width: 40em) {
-    .homesection2-two-column {display: block; padding: 0px;};
+    .homesection2-two-column {display: block; width: 100%; padding: 0px;};
   }
 
-@media (max-width: 40em)
-{
-  .homesection2-left-column {
-    width: 100%;
-    }
+@media (max-width: 40em) {
+     .homesection2-left-column {width: 100%;}
 }
 
-@media (max-width: 40em)
-{
-  .homesection2-right-column {
-    width: 100%;
-    }
+@media (max-width: 40em) {
+  .homesection2-right-column {width: 100%;}
 }
 
 
