@@ -1,5 +1,7 @@
 .homeMain {
 
+  width: 100%;
+  height: 100%;
     background-color: #EFEFEF;
     background-image: linear-gradient(to bottom, #EFEFEF, black);
     font-family: var(--ff-primary);

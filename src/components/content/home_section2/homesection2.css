@@ -3,6 +3,7 @@
     height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: white;
 }
 
 .homesection2-two-column {
@@ -94,11 +95,8 @@
 }
 
 @media (max-width: 40em) {
-    .homesection2 {margin-top: 0px;};
-  }
-
-@media (max-width: 40em) {
     .homesection2-two-column {display: block; width: 100%; padding: 0px;};
+   
   }
 
 @media (max-width: 40em) {
