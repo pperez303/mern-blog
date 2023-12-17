@@ -77,9 +77,12 @@
     border-radius: 5px;
 }
 
-@media (max-width: 40em) {
-    .homesection1-two-column {display: block; padding: 0px;};
-  }
+@media (max-width: 40em)
+{
+  .homesection1-left-column {
+    width: 100%;
+    }
+}
 
 @media (max-width: 40em)
 {
@@ -88,11 +91,7 @@
     }
 }
 
-@media (max-width: 40em)
-{
-  .homesection1-left-column {
-    width: 100%;
-    }
-}
-
+@media (max-width: 40em) {
+    .homesection1-two-column {display: block; padding: 0px;};
+  }
 

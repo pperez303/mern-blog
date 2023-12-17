@@ -1,15 +1,12 @@
 .homesection2 {
     width: 100%;
     height: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
     color: white;
 }
 
 .homesection2-two-column {
     display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 50px;
     justify-content: center;
     align-items: center;
 }
@@ -107,12 +104,6 @@
 @media (max-width: 40em) {
     .homesection2-two-column {display: block; width: 100%; padding: 0px; margin-top: 0px;};
   }
-
-  @media (max-width: 40em) {
-    .homesection2 {margin-top: 0px;};
-  }
-
-
 
 
 
