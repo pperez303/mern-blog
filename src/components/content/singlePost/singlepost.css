@@ -245,16 +245,16 @@ align-items: center;
   background-color: var(--pink-color);
 }
 
-
+@media (max-width: 40em) {
+  .postBody {width: 100%;};
+}
 
 @media (max-width: 40em) {
   .postHeaderTop {display: block};
   .postGroup {display: block};
 }
 
-@media (max-width: 40em) {
-  .postBody {width: 100%;};
-}
+
 
 
 
