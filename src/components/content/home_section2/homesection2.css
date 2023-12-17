@@ -93,6 +93,8 @@
     text-align: center;
     padding: 10px;
 }
+
+/* Oder fo the media querie mattters.  here i used bottom to top order and it worked.  Top down did not work. */
 @media (max-width: 40em) {
   .homesection2-right-column {display: block; width: 100%;}
 }
@@ -103,7 +105,10 @@
 
 @media (max-width: 40em) {
     .homesection2-two-column {display: block; width: 100%; padding: 0px; margin-top: 0px;};
+  }
 
+  @media (max-width: 40em) {
+    .homesection2 {margin-top: 0px;};
   }
 
 
