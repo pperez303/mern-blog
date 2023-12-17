@@ -27,19 +27,17 @@
     margin-top: 10px;
   }
 
-  @media (max-width: 40em) {
-    .aboutArea {display: block;};
-  }
+ 
   @media (max-width: 40em) {
     .aboutInfo {width: 100%;};
   }
+ 
   @media (max-width: 40em) {
-    .aboutSidebar {width: 100%;};
+    .aboutArea {display: block;};
   }
 
-  @media (max-width: 40em) {
-    .sidebar {width: 100%;};
-  }
+
+
 /*.aboutHeader {
     display: flex;
     align-items: center;
