@@ -28,11 +28,11 @@
   }
 
   @media (max-width: 40em) {
-    .aboutSidebar {width: 100%;};
+    .aboutSidebar {display: block; width: 100%;};
   }
  
   @media (max-width: 40em) {
-    .aboutInfo {width: 100%;};
+    .aboutInfo {display: block; width: 100%;};
   }
  
   @media (max-width: 40em) {
