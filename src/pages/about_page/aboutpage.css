@@ -26,7 +26,9 @@
  .aboutSidebar {
     margin-top: 10px;
   }
-
+@media (max-width: 40em) {
+    .aboutArea {display: block; width: 100%};
+  }
   @media (max-width: 40em) {
     .aboutSidebar {display: block; width: 100%;};
   }
@@ -35,9 +37,7 @@
     .aboutInfo {display: block; width: 100%;};
   }
  
-  @media (max-width: 40em) {
-    .aboutArea {display: block;};
-  }
+  
 
 
 
