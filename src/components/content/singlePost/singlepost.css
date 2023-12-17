@@ -248,7 +248,9 @@ align-items: center;
 @media (max-width: 40em) {
   .postBody {display: block; width: 100%;};
 }
-
+@media (max-width: 40em) {
+  .postHeaderTop {display: block;};
+}
 @media (max-width: 40em) {
   .postHeaderInfo {width: 100%;};
 }
@@ -257,9 +259,7 @@ align-items: center;
   .postHeaderImage {width: 100%};
 }
 
-@media (max-width: 40em) {
-  .postHeaderTop {display: block;};
-}
+
 
 
 
