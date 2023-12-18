@@ -36,9 +36,6 @@
   .aboutInfo {display: block; width: 100%;};
 }
 
-@media (max-width: 40em) {
-  .aboutSidebar {display: block; width: 100%;};
-}
 
 
 
