@@ -27,14 +27,15 @@
     margin-top: 10px;
   }
 
-
-  @media (max-width: 40em) {
-    .aboutInfo {width: 100%;};
-  }
-
 @media (max-width: 40em) {
     .aboutArea {display: block;};
   }
+
+  @media (max-width: 40em) {
+    .aboutInfo {display: block;};
+  }
+
+
 
 /*.aboutHeader {
     display: flex;
