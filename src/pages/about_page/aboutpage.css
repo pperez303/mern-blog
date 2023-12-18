@@ -30,9 +30,6 @@
 @media (max-width: 40em) {
     .aboutArea {display: block; width: 100%;};
 }
-@media (max-width: 40em) {
-  .aboutSidebar {margin-left: 60px;};
-}
 
 @media (max-width: 40em) {
   .aboutInfo {display: block; width: 100%;};
