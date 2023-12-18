@@ -32,7 +32,7 @@
   }
 
   @media (max-width: 40em) {
-    .aboutInfo {display: block;};
+    .aboutInfo {display: block; width: 100%;};
   }
 
 
