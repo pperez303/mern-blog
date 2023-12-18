@@ -28,7 +28,7 @@ function About () {
                 </p>
             </div>
             <div className="aboutSidebar">
-                <Sidebar/>
+                <div><Sidebar/></div> 
             </div>
             
         </div>
