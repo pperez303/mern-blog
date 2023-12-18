@@ -29,10 +29,14 @@
 
 @media (max-width: 40em) {
     .aboutArea {display: block; width: 100%;};
-  }
+}
+
+@media (max-width: 40em) {
+  .aboutInfo {display: block; width: 100%;};
+}
 
   @media (max-width: 40em) {
-    .aboutInfo {width: 100%;};
+    .aboutSidebar {margin-left: 60px;};
   }
 
 
