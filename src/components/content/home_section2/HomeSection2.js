@@ -23,7 +23,7 @@ export default function HomeSection2() {
 
                     <h1 className="homesection2-right-column-mission">Mission</h1>
                     <p className="homesection2-right-column-mission-text">
-                        Develop opensource website applications and step-by-step directions on cloning the applications for personal use.
+                        Develop opensource website applications and step-by-step customization instructions.
                     </p>
                 </div>
             </div>
