@@ -1,7 +1,7 @@
 .home-hero {
     position: relative;
     width: 100vw;
-    height: 80vh;
+    padding-bottom: 16em;
     display: flex;
     justify-content: center;
     align-items: center;
